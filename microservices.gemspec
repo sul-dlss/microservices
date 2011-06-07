@@ -5,11 +5,11 @@ require "microservices/version"
 Gem::Specification.new do |s|
   s.name        = "microservices"
   s.version     = Microservices::VERSION
-  s.authors     = ["Michael Klein"]
-  s.email       = ["mbklein@gmail.com"]
+  s.authors     = ["Michael Klein", "Jessie Keck", "Bess Sadler"]
+  s.email       = ["mbklein@stanford.edu"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Ruby implementation of CDL curation microservices}
+  s.description = %q{Ruby implementation of CDL curation microservices <https://confluence.ucop.edu/display/Curation/Home> }
 
   s.rubyforge_project = "microservices"
 
@@ -17,4 +17,10 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+  
+  s.add_development_dependency "rake", ">=0.8.7"
+  s.add_development_dependency "rcov"
+  s.add_development_dependency "rdoc"
+  s.add_development_dependency "rspec"
+  s.add_development_dependency "yard"
 end

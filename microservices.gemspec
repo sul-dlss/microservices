@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Microservices::VERSION
   s.authors     = ["Michael Klein", "Jessie Keck", "Bess Sadler"]
   s.email       = ["mbklein@stanford.edu"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/sul-dlss/microservices"
   s.summary     = %q{Ruby implementation of CDL curation microservices}
   s.description = %q{Ruby implementation of CDL curation microservices <https://confluence.ucop.edu/display/Curation/Home> }
 

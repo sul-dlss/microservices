@@ -1,0 +1,14 @@
+= Microservices
+
+== Description
+
+This gem implements a number of {California Digital Library}[http://www.cdlib.org/] 
+{Curation Microservices}[https://confluence.ucop.edu/display/Curation/Home].
+
+Our goal is to implement the following (in order):
+
+* {Namaste}[https://confluence.ucop.edu/display/Curation/Namaste] Directory Description
+* {PairTree}[https://confluence.ucop.edu/display/Curation/PairTree] Object Storage
+* {ReDD}[https://confluence.ucop.edu/display/Curation/ReDD] Reverse Directory Deltas for Versioning
+* {Checkm}[https://confluence.ucop.edu/display/Curation/Checkm] Checksum-Based Manifest
+* {D-flat}[https://confluence.ucop.edu/display/Curation/D-flat] Digital Object Storage Convention
